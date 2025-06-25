@@ -25,6 +25,17 @@ const Navbar = () => {
 
           <div className="flex items-center gap-2">
             <Link
+              to={"/login"}
+              className={`
+              btn btn-sm gap-2 transition-colors
+              
+              `}
+            >
+              <span>Login</span>
+            </Link>
+            
+          <div className="flex items-center gap-2">
+            <Link
               to={"/settings"}
               className={`
               btn btn-sm gap-2 transition-colors
